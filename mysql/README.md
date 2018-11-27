@@ -25,3 +25,7 @@
     -p 3307:3306 --link mysql-master:master \
     -e MYSQL_ROOT_PASSWORD=root \
     -d watent/mysql-slave:5.7
+    
+    reference:
+        https://hub.docker.com/r/watent/mysql_master/
+        https://hub.docker.com/r/watent/mysql_slave/
